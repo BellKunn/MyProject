@@ -23,12 +23,4 @@ public class NewTry {
         System.out.println("Number of lines " + lines);
         scanner.close();
     }
-    public static String  GetRandomDate () {
-        Random random =new Random();
-        String date="";
-        int YearBegin=2017;
-        int YearEnd=2018 -YearBegin;
-        date=""+(1 + (int)(Math.random()*12+"/"+(YearBegin+(int)(Math.random()*YearEnd))));
-                return date;
-    }
 }
